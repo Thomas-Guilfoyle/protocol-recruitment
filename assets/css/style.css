@@ -9,4 +9,18 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
+    color: black;
+}
+
+/* headings and logo */
+h1, h2 {
+    font-family: Bebas Neue, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fba639;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
