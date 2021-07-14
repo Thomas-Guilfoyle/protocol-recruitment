@@ -20,9 +20,16 @@ h1, h2 {
     color: #fba639;
 }
 
+h3 {
+    font-family: Roboto, sans-serif;
+    font-size: 80%;
+    color: #fff;
+}
+
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -30,6 +37,7 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    color: #1ca5c7;
 }
 
 #menu, #logo {
@@ -49,10 +57,12 @@ h1, h2 {
 
 #menu a:hover {
     border-bottom: 1px solid #fba639;
+    color: #fba639;
 }
 
 .active {
-    border-bottom: 1px solid #fba639;
+    border-bottom: 1px solid ;
+    color: #fba639;
 }
 
 /* hero image and cover text */
@@ -106,6 +116,78 @@ h1, h2 {
 
     bottom: 30px;
     right: 150px;
+
+    position: absolute;
+}
+
+ /* user category */
+
+ #user-category {
+     height: 400px;
+     width: 100%;
+     overflow: hidden;
+
+     position: relative;
+ }
+
+ #left-user {
+    width: 50%;
+    height:400px;
+    float: left;
+    background-image: url("../images/candidate.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+ }
+
+ #right-user {
+    width: 50%;
+    height:400px;
+    float: right;
+    background-image: url("../images/employer.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+}
+
+#left-cover-text, #left-cover-text h2, #right-cover-text, #right-cover-text h2,
+#left-cover-text a, #right-cover-text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#left-cover-text {
+    font-size: 130%;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+
+    width: 50%;
+    height: 400px;
+
+    background-color: rgba(28, 165, 199, 0.5);
+
+    bottom: 0;
+    left: 0;
+
+    position: absolute;
+}
+
+#right-cover-text {
+    font-size: 130%;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+
+    width: 50%;
+    height: 400px;
+
+    background-color: rgba(251, 166, 57, 0.5);
+
+    bottom: 0;
+    right: 0;
 
     position: absolute;
 }
