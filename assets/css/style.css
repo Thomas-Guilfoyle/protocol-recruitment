@@ -192,21 +192,50 @@ h3 {
     position: absolute;
 }
 
-/* job categories */
+/* job-categories */
 
 #job-categories {
-    height: 500px;
+    font-family: Roboto, sans-serif;
+    font-size: 180%;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+
+    height: 600px;
     width: 100%;
+}
+
+#category-banner {
+    text-align: center;
+    font-size: 140%;
+    color: #fff;
+    background-color: rgb(251, 166, 57);
+}
+
+#job-categories h2, #job-categories p {
+    /* color: rgb(28, 165, 199); */
+}
+
+
+.row {
+color: rgb(28, 165, 199);
 }
 
 .column {
     float: left;
-    width: 25%;
-    height: 50%;
-  }
+    width: 24%;
+    height: 300px;
 
+}
+  
   .row:after {
     content: "";
     display: table;
     clear: both;
+  }
+
+  .column h2 {
+      /* font-size: 130%; */
+      color: rgb(28, 165, 199);
   }
