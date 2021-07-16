@@ -372,6 +372,31 @@ footer {
     margin-bottom: 5px;
 }
 
+/* about us page */
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+}
+
+.table_description{
+    border: 5px solid rgb(28, 165, 199);
+    max-width: 100%;
+}
+.table_description p{
+  padding: 20px;
+}
+
+.table_description h2 {
+    text-align: center;
+}
+
 /* media queries */
 
 @media screen and (max-width: 1000px) {
@@ -431,4 +456,8 @@ footer {
     line-height: normal;
     font-size: auto;
 }
+}
+
+video {
+    width: 100%;
 }
