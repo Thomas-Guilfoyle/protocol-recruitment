@@ -446,7 +446,7 @@ td span {
 }
 .signup-form {
     margin: 150px 10% 0 0;
-    color: #fff;
+    color: rgb(28, 165, 199);
     background-color: rgba(251, 166, 57);
     max-width: 400px;
     position: absolute;
@@ -501,14 +501,12 @@ td span {
 
 @media screen and (max-width: 1000px) {
 
-    #menu {
+    #menu{
         clear: left;
         float: left;
-        margin-top: 10px;
-        margin-left: 30px;
+        margin-left: 30px; 
         margin-bottom: 20px;
         line-height: 25px;
-        text-align: center;
     }
 
     #menu a {
