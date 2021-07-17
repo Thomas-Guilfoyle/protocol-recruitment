@@ -439,10 +439,10 @@ td span {
 
 .form-section {
     clear: left;
-    height: 800px;
     background: url("/assets/images/form.webp");
     background-size: cover;
     background-position: center;
+    height: 900px;
 }
 .signup-form {
     margin: 150px 10% 0 0;
@@ -450,7 +450,7 @@ td span {
     background-color: rgba(251, 166, 57);
     max-width: 400px;
     position: absolute;
-    left: 40%;
+    left: 10%;
     padding: 30px;
 }
 
