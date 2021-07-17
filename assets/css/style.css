@@ -252,8 +252,8 @@ footer {
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    font: bold 16px;
-
+    font-size: 16px;
+    font-weight: bold;
     padding: 55px 50px;
     margin-top: 80px;
 }
@@ -447,7 +447,7 @@ td span {
 .signup-form {
     margin: 150px 10% 0 0;
     color: rgb(28, 165, 199);
-    background-color: rgba(251, 166, 57);
+    background-color: rgba(251, 166, 57, 0.5);
     max-width: 400px;
     position: absolute;
     left: 10%;
@@ -552,6 +552,6 @@ td span {
 
     .main {
         line-height: normal;
-        font-size: auto;
+        font-size: 100%;
     }
 }
