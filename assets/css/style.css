@@ -272,7 +272,8 @@ footer {
 
 .footer-distributed h3 {
     color: #ffffff;
-    font: normal 36px Bebas Neue, sans-serif;;
+    font: normal 36px Bebas Neue, sans-serif;
+    ;
     margin: 0;
 }
 
@@ -385,15 +386,16 @@ video {
     width: 100%;
 }
 
-.table_description{
+.table_description {
     border: 5px solid rgb(28, 165, 199);
     max-width: 100%;
 }
+
 .table_description p {
-  padding: 20px;
+    padding: 20px;
 }
 
-.table_description h2{
+.table_description h2 {
     text-align: center;
 }
 
@@ -410,18 +412,20 @@ video {
 
 /* jobs page */
 
-.job-title{
+.job-title {
     font-family: Bebas Neue, sans-serif;
     font-size: 180%;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #fba639;
 }
+
 .job-title p {
     padding-left: 15px;
     padding-top: 7px;
 }
-.job-category td{
+
+.job-category td {
     padding: 10px;
     display: inline-block;
 }
@@ -434,7 +438,7 @@ td span {
 /* media queries */
 
 @media screen and (max-width: 1000px) {
-    
+
     #menu {
         clear: left;
         float: left;
@@ -444,52 +448,52 @@ td span {
         line-height: 25px;
         text-align: center;
     }
-     
-     #menu a {
+
+    #menu a {
         display: inline;
-     }
-     
-     #menu li {
+    }
+
+    #menu li {
         float: none;
         display: inline;
-     }
+    }
 
-     #cover-text {
-         left: 0;
-     }
-     
+    #cover-text {
+        left: 0;
+    }
+
     #job-categories {
-       font-size: 100%;
-       height: auto;
- }
- 
-   .column {
-       width: 50%;
-       height: 200px;
-   }
+        font-size: 100%;
+        height: auto;
+    }
 
-   .footer-distributed {
-    font: bold 14px sans-serif;
+    .column {
+        width: 50%;
+        height: 200px;
+    }
 
-}
+    .footer-distributed {
+        font: bold 14px sans-serif;
 
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right {
-    display: block;
-    width: 100%;
-    margin-bottom: 40px;
-    text-align: center;
-}
+    }
 
-.footer-distributed .footer-center i {
-    margin-left: 0;
-}
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
 
-.main {
-    line-height: normal;
-    font-size: auto;
-}
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+
+    .main {
+        line-height: normal;
+        font-size: auto;
+    }
 }
 
 video {
