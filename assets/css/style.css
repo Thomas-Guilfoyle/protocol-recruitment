@@ -389,12 +389,46 @@ video {
     border: 5px solid rgb(28, 165, 199);
     max-width: 100%;
 }
-.table_description p{
+.table_description p {
   padding: 20px;
 }
 
-.table_description h2 {
+.table_description h2{
     text-align: center;
+}
+
+.table_description li {
+    text-align: left;
+    padding-left: 30px;
+    list-style: none;
+}
+
+.table_description span {
+    color: rgb(28, 165, 199);
+    font-weight: 900;
+}
+
+/* jobs page */
+
+.job-title{
+    font-family: Bebas Neue, sans-serif;
+    font-size: 180%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fba639;
+}
+.job-title p {
+    padding-left: 15px;
+    padding-top: 7px;
+}
+.job-category td{
+    padding: 10px;
+    display: inline-block;
+}
+
+td span {
+    color: rgb(251, 166, 57);
+    font-weight: 900;
 }
 
 /* media queries */
