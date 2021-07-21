@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     color: black;
 }
@@ -15,14 +15,14 @@ body {
 /* headings and logo */
 h1,
 h2 {
-    font-family: Bebas Neue, sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #fba639;
 }
 
 h3 {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 80%;
     color: #fff;
 }
@@ -105,7 +105,7 @@ h3 {
 
 #cover-text {
     font-size: 130%;
-    font-family: Bebas Neue, sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
@@ -167,7 +167,7 @@ h3 {
 
 #left-cover-text {
     font-size: 130%;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 4px;
     text-align: center;
 
@@ -184,7 +184,7 @@ h3 {
 
 #right-cover-text {
     font-size: 130%;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 4px;
     text-align: center;
 
@@ -202,7 +202,7 @@ h3 {
 /* job-categories */
 
 #job-categories {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 180%;
     color: #fff;
     text-align: center;
@@ -271,7 +271,7 @@ footer {
 
 .footer-distributed h3 {
     color: #ffffff;
-    font: normal 36px Bebas Neue, sans-serif;
+    font: normal 36px "Bebas Neue", sans-serif;
     ;
     margin: 0;
 }
@@ -412,7 +412,7 @@ video {
 /* jobs page */
 
 .job-title {
-    font-family: Bebas Neue, sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-size: 180%;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -533,7 +533,7 @@ td span {
     }
 
     .footer-distributed {
-        font: bold 14px sans-serif;
+        font: bold 14px "Bebas Neue", sans-serif;
 
     }
 
@@ -548,10 +548,5 @@ td span {
 
     .footer-distributed .footer-center i {
         margin-left: 0;
-    }
-
-    .main {
-        line-height: normal;
-        font-size: auto;
     }
 }
