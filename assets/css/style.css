@@ -385,26 +385,43 @@ video {
     width: 100%;
 }
 
-.table_description {
+.table-description {
     border: 5px solid rgb(28, 165, 199);
     max-width: 100%;
 }
 
-.table_description p {
+.table-description p {
     padding: 20px;
 }
 
-.table_description h2 {
+.table-description h2 {
     text-align: center;
 }
 
-.table_description li {
+.table-description li {
     text-align: left;
     padding-left: 30px;
     list-style: none;
 }
 
-.table_description span {
+.table-description ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgb(28, 165, 199); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.table-description a {
+    color: rgba(251, 166, 57);
+}
+
+.table-description a:hover {
+    color: rgb(28, 165, 199);
+}
+
+.table-description span {
     color: rgb(28, 165, 199);
     font-weight: 900;
 }
