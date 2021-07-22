@@ -354,6 +354,8 @@ footer {
 
 .footer-distributed .footer-icons {
     margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer-distributed .footer-icons a {
@@ -373,6 +375,16 @@ footer {
     margin-bottom: 5px;
 }
 
+.footer-icons a:hover {
+    transform: rotate(25deg) scale(1.25);
+    background-color: white;
+}
+
+.footer-icons a:hover i {
+    color: rgb(251, 166, 57);
+    transform: scale(1.5);
+}
+
 /* about us page */
 
 .container {
@@ -389,11 +401,10 @@ video {
 .table-description {
     border: 5px solid rgb(251, 166, 57);
     max-width: 100%;
-    padding: 20px;
 }
 
 .table-description p {
-    /* padding: 20px; */
+    padding: 20px;
     line-height: 2.4rem;
     font-size: 20px;
 }
@@ -562,8 +573,9 @@ td span {
     }
 
     #menu li {
-        float: none;
-        display: inline;
+        margin-right: 10px;
+        letter-spacing: 1.5px;
+        font-size: 15px;
     }
 
     #cover-text {
@@ -577,7 +589,16 @@ td span {
 
     .column {
         width: 50%;
-        height: 200px;
+        height: 100px;
+    }
+
+    .column h2 {
+        color: rgb(28, 165, 199);
+        height: 30px;
+    }
+
+    i.fas {
+        font-size: 150%;
     }
 
     .footer-distributed {
@@ -591,7 +612,6 @@ td span {
         display: block;
         width: 100%;
         margin-bottom: 40px;
-        text-align: center;
     }
 
     .footer-distributed .footer-center i {
@@ -599,10 +619,23 @@ td span {
     }
 }
 
-/* media for smaller phones */
+@media screen and (max-width: 500px) {
 
-@media screen and (max-width: 443px;) {
+    .table-description li {
+        padding-left: 20px;
+    }
+
+    .table-description ul {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 443px) {
     .signup-form {
         top: calc(100% + 25px);
+    }
+
+    .footer-distributed {
+        padding: 55px 30px;
     }
 }
