@@ -252,7 +252,8 @@ footer {
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    font: bold 16px;
+    font-weight: bold;
+    font-size: 16px;
 
     padding: 55px 50px;
     margin-top: 80px;
@@ -377,7 +378,7 @@ footer {
 .container {
     padding-top: 20px;
     padding-bottom: 20px;
-    max-width: 80%;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -386,31 +387,40 @@ video {
 }
 
 .table-description {
-    border: 5px solid rgb(28, 165, 199);
+    border: 5px solid rgb(251, 166, 57);
     max-width: 100%;
+    padding: 20px;
 }
 
 .table-description p {
-    padding: 20px;
+    /* padding: 20px; */
+    line-height: 2.4rem;
+    font-size: 20px;
 }
 
 .table-description h2 {
     text-align: center;
+    font-size: 28px;
+}
+
+.table-description ul {
+    margin-left: 50px;
+}
+
+.table-description li::marker {
+    display: list-item;
+    content: "\f0fe";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    color: rgb(28, 165, 199);
 }
 
 .table-description li {
     text-align: left;
     padding-left: 30px;
     list-style: none;
-}
-
-.table-description ul li::before {
-    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: rgb(28, 165, 199); /* Change the color */
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    line-height: 2.0rem;
+    font-size: 20px;
 }
 
 .table-description a {
@@ -424,6 +434,10 @@ video {
 .table-description span {
     color: rgb(28, 165, 199);
     font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: block;
+    line-height: 30px;
 }
 
 .iframe-container{
@@ -465,11 +479,11 @@ td span {
     font-weight: 900;
 }
 
-/* contact us page */
+/* contact page */
 
 .form-section {
     clear: left;
-    background: url("/assets/images/form.webp");
+    background: url("/assets/images/form.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -478,7 +492,7 @@ td span {
 .signup-form {
     margin: 150px 10% 0 0;
     color: rgb(28, 165, 199);
-    background-color: rgba(251, 166, 57);
+    background-color: rgb(251, 166, 57);
     max-width: 400px;
     position: absolute;
     left: 10%;
@@ -492,12 +506,15 @@ td span {
 
 .text-input {
     background: #fff;
+    font-weight: bold;
+    font-size: 16px;
     color: rgb(28, 165, 199);
-    width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid rgb(28, 165, 199);
     border-radius: 2px;
+    padding: 0 10px;
+    width: calc(100% - 20px);
 }
 
 .text-input:hover {
@@ -564,7 +581,7 @@ td span {
     }
 
     .footer-distributed {
-        font: bold 14px "Bebas Neue", sans-serif;
+        font: bold 14px "Roboto", sans-serif;
 
     }
 
@@ -579,5 +596,13 @@ td span {
 
     .footer-distributed .footer-center i {
         margin-left: 0;
+    }
+}
+
+/* media for smaller phones */
+
+@media screen and (max-width: 443px;) {
+    .signup-form {
+        top: calc(100% + 25px);
     }
 }
