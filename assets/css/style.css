@@ -498,6 +498,10 @@ video {
     color: #fba639;
 }
 
+.job-title h2 {
+    margin-left: 30px
+}
+
 .job-title p {
     padding-left: 15px;
     padding-top: 7px;
