@@ -1,5 +1,4 @@
 ![image](https://user-images.githubusercontent.com/84339381/126024445-d270e1c7-3506-465e-8a72-a474e42166f2.png)
-# Protocol Recruitment
 
 Protocol Recruitment is a site I made for a family friend. He plans to start his recruitment business in the coming months, so I saw it as an opportunity where we could help each other. This site should showcase jobs that may be available on a regular basis, primarily in the Irish midland. The site will be targeted towards jobseekers who want to apply for jobs, and employers who can avail of the services of the business to find the perfect fit they need for a position at their company.
 
@@ -92,8 +91,14 @@ In addition, you may also use this section to discuss plans for additional featu
 ### Unfixed Bugs
 
 I have one unfixed bug that got the better of me. While viewing the website on port 8000 I can see the background image, but on the deployed site I can't:
+
+
 ![image](https://user-images.githubusercontent.com/84339381/126778787-728d09ce-af10-4256-93ab-540c159269d3.png)
+
+
 ![image](https://user-images.githubusercontent.com/84339381/126778688-933caf1b-8ce2-49dd-befe-ad5496c14031.png)
+
+
 I spent a lot of time trying to fix this, but I haven't found the solution yet. I won't stop until I do, though!
 
 
@@ -113,8 +118,10 @@ The live link can be found here - [Protocol Recruitment](https://thomas-guilfoyl
 
 - The text for the placeholder job description was taken from [Morgan McKinley](https://www.morganmckinley.com/ie/job-description-templates/full-stack-developer-job-description-sample-template) and all other text was created by me.
 - Some features on the page were inspired by the Love Running project.
-- All icons from [Font Awesome](https://fontawesome.com/)
+- All icons used are from [Font Awesome](https://fontawesome.com/)
 - Fonts were sourced from [Google Fonts](https://fonts.google.com/)
+- The 404 page was inspired by [this](https://codepen.io/akashrajendra/pen/JKKRvQ)
+- The background and positioning for the YouTube video was influenced by [this](https://www.youtube.com/watch?v=9YffrCViTVk) video.
 
 ### Media
 
