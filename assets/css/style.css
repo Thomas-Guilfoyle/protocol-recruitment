@@ -488,20 +488,6 @@ video {
     border: none;
 }
 
-/* .iframe-container{
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; 
-    height: 0;
-  }
-  .iframe-container iframe{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  } */
-
 /* jobs page */
 
 .job-title {
@@ -669,7 +655,7 @@ td span {
 
 @media screen and (max-width: 443px) {
     .signup-form {
-        top: calc(100% + 25px);
+        top: inherit;
     }
 
     .footer-distributed {
