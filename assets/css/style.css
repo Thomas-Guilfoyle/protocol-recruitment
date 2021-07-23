@@ -518,7 +518,7 @@ td span {
 
 .form-section {
     clear: left;
-    background: url("/assets/images/form.jpg");
+    background: url("assets/images/form.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
