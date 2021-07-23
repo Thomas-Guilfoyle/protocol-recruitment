@@ -61,9 +61,6 @@ Protocol Recruitment is a site I made for a family friend. He plans to start his
 
 ![image](https://user-images.githubusercontent.com/84339381/126776506-03b909c4-712e-4826-ba45-028714fd2e57.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future
 
 ### Future Enhancements
 
@@ -74,11 +71,9 @@ In addition, you may also use this section to discuss plans for additional featu
 ## Testing 
 
 - I continuously tested using Google Dev Tools, ensuring everything on all devices was working as it should. This proved to be extremely helpful as it allowed me to identify some flaws.
-- I used my 3 personal devices, and the computer I use for my job, to test every page rigorously. I used a range of devices, including a Dell Latitude 5420, a Samsung Galaxy S21, an iPhone 11 and SE and a HP Chromebook. I also have a docking station for the Dell Latitude at home, and at work, that are plugged into monitors with various screen sizes.
+- I used my 3 personal devices, and the computer I use for my job, to test every page rigorously. I used a range of devices, including a Dell Latitude 5420, a Samsung Galaxy S21, an iPhone 11, iPhone SE and a HP Chromebook. I also have a docking station for the Dell Latitude at home, and at work, that are plugged into monitors with various screen sizes.
 - My friends and family were very helpful with the testing. I asked a few people to be picky with their assessment. I would have missed this, if my friends Stephen and Kevin didn't spot it on their devices:
-- ![image](https://user-images.githubusercontent.com/84339381/126778940-9775a313-4bad-49f2-81b3-20aa61d4eb39.png)
-
-
+![image](https://user-images.githubusercontent.com/84339381/126778940-9775a313-4bad-49f2-81b3-20aa61d4eb39.png)
 
 
 ### Validator Testing 
@@ -129,6 +124,4 @@ The live link can be found here - [Protocol Recruitment](https://thomas-guilfoyl
 - The animated logo video was made by my friend Adam.
 
 ## Acknowledgements
-I would like to extend my sincere thanks to my family, friends and especially my mentor, Malia. Without their help I would not have gotten the ball over the line!
-
-
+I would like to extend my sincere thanks to the business owner, my family, my friends, and especially my mentor, Malia. Without their help I would not have gotten the ball over the line!
