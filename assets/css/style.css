@@ -163,6 +163,7 @@ h3 {
 #right-cover-text a {
     color: #fff;
     text-decoration: none;
+    align-self: center
 }
 
 #left-cover-text {
@@ -170,16 +171,14 @@ h3 {
     font-family: "Roboto", sans-serif;
     letter-spacing: 4px;
     text-align: center;
-
     width: 50%;
     height: 400px;
-
     background-color: rgba(28, 165, 199, 0.5);
-
     bottom: 0;
     left: 0;
-
     position: absolute;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #right-cover-text {
@@ -187,16 +186,14 @@ h3 {
     font-family: "Roboto", sans-serif;
     letter-spacing: 4px;
     text-align: center;
-
     width: 50%;
     height: 400px;
-
     background-color: rgba(251, 166, 57, 0.5);
-
     bottom: 0;
     right: 0;
-
     position: absolute;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #left-cover-text a:hover * {
