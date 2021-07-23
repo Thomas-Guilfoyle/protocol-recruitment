@@ -581,6 +581,39 @@ td span {
     color: rgb(28, 165, 199);
 }
 
+/* 404 page */
+
+.fof {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fof h1 {
+    font-size: 50px;
+    display: inline-block;
+    padding-right: 12px;
+    animation: type .5s alternate infinite;
+}
+
+.fof a {
+    text-decoration: none;
+    color: rgb(251, 166, 57);
+}
+
+.fof a:hover {
+    color: rgb(28, 165, 199);
+}
+
+@keyframes type {
+    from {
+        box-shadow: inset -3px 0px 0px #888;
+    }
+
+    to {
+        box-shadow: inset -3px 0px 0px transparent;
+    }
+}
+
 /* media queries */
 
 @media screen and (max-width: 1000px) {
