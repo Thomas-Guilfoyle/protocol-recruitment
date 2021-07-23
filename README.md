@@ -127,3 +127,8 @@ The live link can be found here - [Protocol Recruitment](https://thomas-guilfoyl
 
 - The photos used on the site were sourced from [Pixabay](https://pixabay.com/)
 - The animated logo video was made by my friend Adam.
+
+## Acknowledgements
+I would like to extend my sincere thanks to my family, friends and especially my mentor, Malia. Without their help I would not have gotten the ball over the line!
+
+
