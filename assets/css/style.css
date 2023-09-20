@@ -252,7 +252,7 @@ footer {
 }
 
 .footer-distributed {
-    background-color: rgba(28, 165, 199, 0.5);
+    background-color: rgb(28, 165, 199);
     box-sizing: border-box;
     width: 100%;
     text-align: left;
